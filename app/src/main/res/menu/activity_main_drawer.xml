@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group
+        android:layout_width="wrap_content"
+        android:checkableBehavior="single"
+        tools:ignore="ExtraText">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_work"
+            android:icon="@drawable/ic_work"
+            android:title="Work" />
+        <item
+            android:id="@+id/nav_favouritePlace"
+            android:icon="@drawable/ic_favorite_heart"
+            android:title="Favourite place" />
+        <item
+            android:id="@+id/nav_favouriteRoute"
+            android:icon="@drawable/ic_directions_bike"
+            android:title="Favourite route" />
+        <item
+            android:id="@+id/about_developers"
+            android:icon="@drawable/ic_face"
+            android:title="About Developers" />
+    </group>
+
+
+
+</menu>
